@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site tabelas</title>
+</head>
+<style>
+  table, th, td{
+      border: 1px solid;
+      font-size: 25px;
+      border-collapse: collapse;
+      padding-left: 35px;
+      padding-right: 35px;
+  }
+  #titulo{
+    border: 1px solid;
+    font-size: 35px;
+    border-collapse: collapse;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(201, 132, 92);
+  }
+  #descricao{
+    border: 1px solid;
+    font-size: 15px;
+    border-collapse: collapse;
+    padding-left: 130px;
+    padding-right: 130px;
+    background-color: rgb(219, 181, 138);
+  }
+  #menu{
+    font-size: 15px;
+    background-color: rgb(201, 132, 92);;
+  }
+  #itens{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 20px;
+  }
+  #texto{
+    font-size: 15px;
+  }
+  #rodape{
+    border: 1px solid;
+    font-size: 15px;
+    border-collapse: collapse;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(201, 132, 92);;
+  }
+</style>
+<body>
+  <table>
+    <tr>
+      <th id="titulo" colspan="2">Meu site</th>
+    </tr>
+    <tr>
+      <th id="descricao" colspan="2">
+        Usando Tabelas em HTML
+      </th>
+    </tr>
+    <tr>
+     <th rowspan="2"> 
+      <table>
+        <tr>
+          <th id="menu">
+            Menu
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <ul id="itens">
+              <li>Inicio</li>
+              <li>sobre </li>
+              <li>serviços</li>
+              <li>contatos</li>
+            </ul>
+          </th>
+        </tr>
+      </table>
+     </th>
+     
+     <th> 
+      Bem - vindo!
+     </th>
+
+    </tr>
+    <tr>
+      <th id="texto">
+        "Se você quiser, eu <br>
+        Eu posso tentar, mas <br>
+        Eu não sei dançar tão devagar <br>
+        Pra te acompanhar"
+      </th>
+    </tr>
+
+    <tr>
+      <th id="rodape" colspan="2">
+        2026 - Meu site
+      </th>
+    </tr>
+  </table>
+
+</body>
+</html>
